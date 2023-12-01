@@ -1,6 +1,12 @@
+@font-face {
+  font-family: "roboto";
+  src: url(roboto-regular.ttf) format("truetype");
+}
+
 body {
   background-color: cadetblue;
   align-content: center;
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header-div {
@@ -45,4 +51,28 @@ p {
 
 .foot {
   text-align: center;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  text-decoration: underline;
 }
